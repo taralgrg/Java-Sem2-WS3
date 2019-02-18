@@ -10,8 +10,13 @@ public class PredictivePrototype {
 
 
     /**
-     * This methods converts words to signature with the use of  StringBuffer because it is
-     * faster  to make more modifications to Strings of characters.
+     * It was better to use StringBuffer as String are immutable, whereas
+     * are not and given we need to constantly append it was
+     * better to use StringBuffer.
+     *
+     *
+     * This methods converts words to signature, it is better to use StringBuffer because it is
+     * faster  to make more modifications to Strings of characters and Strings
      * @param word is the word input by the user.
      * @return returns the signature of the words.
      */
@@ -107,3 +112,5 @@ public class PredictivePrototype {
 
     }
 }
+
+
